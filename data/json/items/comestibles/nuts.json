@@ -421,7 +421,6 @@
     "comestible_type": "FOOD",
     "symbol": "%",
     "quench": -5,
-    "//": "no vitamins here",
     "healthy": -5,
     "calories": 114,
     "description": "A handful of acorns, still in their shells.  Squirrels like them, but they're not very good for you to eat in this state.",
@@ -430,7 +429,7 @@
     "volume": "250 ml",
     "flags": [ "EDIBLE_FROZEN", "NUTRIENT_OVERRIDE", "RAW" ],
     "charges": 4,
-    "//2": "no vitamins here",
+    "vitamins": [ [ "calcium", 1 ], [ "iron", 2 ] ],
     "fun": -20
   },
   {
@@ -442,6 +441,7 @@
     "description": "A handful roasted nuts from an oak tree.",
     "price": 90,
     "flags": [ "EATEN_HOT", "EDIBLE_FROZEN" ],
+    "vitamins": [ [ "calcium", 1 ], [ "iron", 2 ] ],
     "fun": 1
   },
   {
@@ -454,11 +454,11 @@
     "comestible_type": "FOOD",
     "symbol": "%",
     "healthy": 1,
-    "calories": 110,
+    "calories": 114,
     "description": "A serving of acorns that have been hulled, chopped, and boiled in water before being thoroughly toasted until dry.  Filling and nutritious.",
     "price": 90,
     "material": "nut",
-    "vitamins": [ [ "calcium", 4 ], [ "iron", 4 ] ],
+    "vitamins": [ [ "calcium", 1 ], [ "iron", 2 ] ],
     "volume": "250 ml"
   }
 ]
